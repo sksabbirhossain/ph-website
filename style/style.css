@@ -8,9 +8,7 @@ body {
 .container {
   margin: 0 5%;
 }
-.row-50 {
-  width: 50%;
-}
+
 .main-btn {
   margin: 45px 0;
 }
@@ -191,10 +189,50 @@ footer {
 }
 
 footer h1 {
-    color: #ff7605;
-    font-family: 'Lobster', cursive;
-  }
-  footer p  {
-    color: #e0dcdc;
-    padding-top: 20px;
-  }
+  color: #ff7605;
+  font-family: "Lobster", cursive;
+}
+footer p {
+  color: #e0dcdc;
+  padding-top: 20px;
+}
+
+/* blog section */
+.blog-section {
+  margin: 80px 0;
+}
+
+.blog-section .blog-area {
+  margin-top: 50px;
+  display: flex;
+}
+
+.blog-area .blog {
+  border-radius: 10px;
+  margin-right: 40px;
+  background-color: #85c2da5e;
+}
+.blog-area .blog img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.blog-area .blog h3 {
+  padding: 20px 10px;
+  font-size: 22px;
+}
+
+.blog-area .blog p {
+  padding-bottom: 20px;
+  color: #6d6d6d;
+  padding: 5px 10px;
+}
+.blog-area .blog .redMore-btn {
+  margin: 20px 10px;
+}
+.blog-area .blog .redMore-btn a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7605;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
